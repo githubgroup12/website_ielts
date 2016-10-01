@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gửi Tin Nhắn Hỗ Trợ</title>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link href="css/bootstrap.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="css/menu.css">
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <link href="fonts/glyphicons-halflings-regular.woff" rel="fonts">
+	  <script type="text/javascript" src="editor/ckeditor.js"></script>
+</head>
+<body>
+
+<a href="menu2.html"><button class="btn btn-primary" style="float: right;">Đăng Xuất</button></a>
+<a href="Xem thong tin ca nhan.html"><strong><span style="float: right;font-size: 16px" >Xin chào : Nguyễn Văn A &nbsp;&nbsp;</span></strong></a>
+ <div id="logo">
+     <a href="">
+         <img src="IELTS_LEARNING.jpg" width="100%" height="30%"></a>
+ </div>
+     <div id="wrapper">
+            <div id="head" class="clearfix">
+                <div class="wrapper_container">
+                    <ul id="main_menu">
+                        <li><a href="menu1.html">Trang chủ</a></li>
+                         <li><a href="Gioi Thieu.html">Giới thiệu</a></li>
+                        <li>
+                            <a href="">IELTS Online</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Reading</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="click hoc reading.html">IELTS 6.0</a></li>
+                                        <li><a href="click hoc reading.html">IELTS 6.0 - 8.0</a></li>
+                                        <li><a href="click hoc reading.html">IELTS 8.0</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Listening</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="click listenning.html">IELTS 6.0</a></li>
+                                        <li><a href="click listenning.html">IELTS 6.0 - 8.0</a></li>
+                                        <li><a href="click listenning.html">IELTS 8.0</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Speaking</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="click speaking.html">IELTS 6.0</a></li>
+                                        <li><a href="click speaking.html">IELTS 6.0 - 8.0</a></li>
+                                        <li><a href="click speaking.html">IELTS 8.0</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Writing</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="click writing.html">IELTS 6.0</a></li>
+                                        <li><a href="click writing.html">IELTS 6.0 - 8.0</a></li>
+                                        <li><a href="click writing.html">IELTS 8.0</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Free Test</a>
+                            <ul class="sub_menu">
+                                <li><a href="click Test Reading.html">Reading</a></li>
+                                <li><a href="click Test Listening.html">Listening</a> </li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="Tai Lieu.html">Tài liệu</a></li>
+                        <li><a href="Tin Nhan Ho Tro.html">Tin nhắn hỗ trợ</a></li>
+                 </ul>
+         </div>
+    </div>
+    </div>
+<!--dfdfdf-->
+	<ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Tin nhắn hỗ trợ</a></li>
+  </ol>
+
+  	<div class="panel-group" style="margin-left:10px; margin-right:10px">
+    <div class="panel panel-info">
+     <div class="panel-heading"><strong><center><h2>Gửi Tin Nhắn Hỗ Trợ</h2></center></strong></div>
+      <div class="panel-body">
+      		<form>
+		    <div class="form-group">
+		      <label for="tieudeu">Tiêu đề</label>
+		      <input type="text" class="form-control" id="tieude" placeholder="Nhập tiêu đề ở đây">
+		    </div>
+		    <div class="form-group">
+              <label for="editor1">Nội dung</label>
+              <textarea class="form-control" rows="5" id="editor1"></textarea>
+            </div>
+		    <script type="text/javascript">
+		    	CKEDITOR.replace( 'editor1' );
+		    </script>
+		  </form>
+
+	
+      </div>
+      </div>
+      </div>
+		<center><button class="btn btn-primary btn-lg" id="btnsend1" data-toggle="modal" data-target="#send1"><span class="glyphicon glyphicon-open"> Send</span></button></center>
+		  <div class="modal fade" id="send1" role="dialog">
+                     <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="alert alert-success">
+                        <strong>Success ! Gửi tin nhắn hỗ trợ thành công</strong> 
+                    </div>
+                   
+                  </div>
+                  <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="closeee">Close</button>
+              </div>
+                </div>
+              </div>
+            </div>
+            <center><a href="user xem lich su ho tro.html"><h3><span style="color: blue;">Xem lịch sử hỗ trợ</h3></span></a></center>
+            <br/>
+            <br />
+</body>
+</html>
